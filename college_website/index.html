@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_college</title>
+    <!-- google fonts link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- adding section 1 -->
+    <section class="header">
+      <!-- Navbar -->
+      <nav>
+        <!-- logo -->
+        <a href="index.html"><img src="/Image/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+            
+            <button class="fa" onclick="hideMenu()">x</button>
+            <!-- <i class="fa-sharp fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i> -->
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            
+          </ul> 
+       
+        </div> 
+        
+        <!-- <i class="fa-solid fa-bars" onclick="showMenu()"></i> -->
+        <button class="fa" onclick="showMenu()">=</button>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+      </nav>
+   
+
+      <div class="text-box">
+        <h1>World's biggest university</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+          repellendus aspernatur aliquid impedit deserunt doloribus dicta <br>
+          reprehenderit sunt aliquam suscipit.
+        </p>
+        <a href=""class="hero-btn">visit us to know more</a>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="course">
+      <h1>Courses we offer</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam facilis possimus quisquam earum vero labore quam placeat totam iusto ad.</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam facilis possimus quisquam earum vero labore quam placeat totam iusto ad.</p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam facilis possimus quisquam earum vero labore quam placeat totam iusto ad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="campus">
+      <h1>Our Global campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Recusandae nulla aliquid laborum, facilis reiciendis sequi distinctio blanditiis fuga modi officiis dicta facere quibusdam architecto, 
+         sapiente ipsum. Delectus, repellendus laudantium. Quibusdam.</p>
+
+
+         <!-- adding 3 rows -->
+         <div class="row">
+          <div class="campus-col">
+            <img src="/Image/london.png" alt="">
+            <div class="layer">
+              <h3>LONDON</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="/Image/newyork.png" alt="">
+            <div class="layer">
+              <h3>NEWYORK</h3>
+            </div>
+          </div>
+          <div class="campus-col">
+            <img src="/Image/washington.png" alt="">
+            <div class="layer">
+              <h3>WASHINGTON</h3>
+            </div>
+          </div>
+         </div>
+    </section>
+
+    <!-- adding section 4 for facilities -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consequuntur aperiam soluta. Quos excepturi similique fugiat voluptas ad dolorem exercitationem corrupti enim magnam laborum repudiandae consectetur, 
+        doloremque sequi, obcaecati modi?</p>
+
+
+        <div class="row">
+          <div class="facilities-col">
+            <img src="Image/library.png" alt="">
+            <h3>World Class library</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nihil.</p>
+          </div>
+          <div class="facilities-col">
+            <img src="Image/basketball.png" alt="">
+            <h3>Largest play ground</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nihil.</p>
+          </div>
+          <div class="facilities-col">
+            <img src="Image/cafeteria.png" alt="">
+            <h3>Tasy and Healthy snack</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, nihil.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- adding section 5 for testimonials -->
+    <section class="testimonials">
+      <h1>What our students says</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nisi?</p>
+<div class="row">
+      <div class="testimonial-col">
+        <img src="/Image/user1.jpg" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quam, veritatis perferendis ab ducimus velit dolorem quas labore quos in</p>
+          
+          <h3>student 1</h3>
+          <!-- adding start rating icons -->
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <!-- <i class="fa-solid fa-star"></i> -->
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+      </div>
+      <div class="testimonial-col">
+        <img src="/Image/user2.jpg" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod quam, veritatis perferendis ab ducimus velit dolorem quas labore quos in</p>
+
+          <h3>student 2</h3>
+           <!-- adding start rating icons -->
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+           <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- adding section 6: call to action -->
+    <section class="cta">
+      <h1>Enroll for our courses from anywhere</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- adding section 7: footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, quia? Voluptas illum veritatis dolor quod voluptatem dolorum vitae culpa 
+        explicabo, tempora aliquam magni inventore numquam doloribus quibusdam eum autem iusto.</p>
+
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+     
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
